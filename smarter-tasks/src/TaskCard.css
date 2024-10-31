@@ -1,0 +1,47 @@
+/* Input field styling */
+input[type="text"],
+input[type="date"] {
+  padding: 10px; /* Padding for input fields */
+  border: 1px solid #ccc; /* Light border for definition */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1em; /* Consistent font size */
+  width: 100%; /* Full width for better layout */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Placeholder styling */
+input::placeholder {
+  color: #aaa; /* Light gray for placeholders */
+  opacity: 1; /* Fully opaque */
+}
+
+/* Spacing between input fields */
+form div {
+  margin-bottom: 20px; /* Increased space between input fields */
+}
+
+/* Task item styling */
+.TaskItem {
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 12px;
+  background-color: #f9f9f9;
+}
+
+/* Button styling */
+.add-task-button {
+  background-color: green; /* Green button background */
+  color: white; /* White text for better contrast */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for the button */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Transition effect */
+  width: 100%; /* Full width of parent container */
+}
+
+/* Button hover effect */
+.add-task-button:hover {
+  background-color: darkgreen; /* Darker green on hover */
+}
